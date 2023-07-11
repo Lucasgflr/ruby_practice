@@ -8,7 +8,7 @@ client = Mysql2::Client.new(
 )
 
 #1
-results = client.query("SELECT * FROM people_<your_name>")
+results = client.query("SELECT * FROM people_csv")
 
 #2
 p "First 10 records:"
